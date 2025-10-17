@@ -4,6 +4,7 @@ import { addCourse, getEducatorCourses, getEducatorDashboardData,
 import upload from "../configs/multer.js";
 import { protectEducator } from "../middlewares/authMiddleware.js";
 
+
 const educatorRouter = express.Router();
 
 // Add Educator Role 
